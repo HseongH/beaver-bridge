@@ -14,7 +14,13 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@beaver-bridge/components": ["libs/clients/components/src/index.ts"],
+      "@beaver-bridge/config": ["libs/servers/config/src/index.ts"],
+      "@beaver-bridge/contracts": ["libs/common/contracts/src/index.ts"],
+      "@beaver-bridge/core": ["libs/clients/core/src/index.ts"],
+      "@beaver-bridge/type": ["libs/common/type/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

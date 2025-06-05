@@ -1,0 +1,19 @@
+{
+  "name": "contracts",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/common/contracts/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:swc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/common/contracts",
+        "main": "libs/common/contracts/src/index.ts",
+        "tsConfig": "libs/common/contracts/tsconfig.lib.json",
+        "assets": ["libs/common/contracts/*.md"]
+      }
+    }
+  }
+}
