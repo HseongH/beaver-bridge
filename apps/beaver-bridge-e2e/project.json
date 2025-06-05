@@ -1,0 +1,9 @@
+{
+  "name": "beaver-bridge-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/beaver-bridge-e2e/src",
+  "implicitDependencies": ["beaver-bridge"],
+  "// targets": "to see all targets run: nx show project beaver-bridge-e2e --web",
+  "targets": {}
+}
